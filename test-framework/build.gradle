@@ -1,0 +1,36 @@
+plugins {
+    id 'java'
+    id 'java-library'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+dependencies {
+    api group: 'org.junit.jupiter', name: 'junit-jupiter', version: '5.6.0'
+    api group: 'org.junit.jupiter', name: 'junit-jupiter-api', version: '5.6.0'
+    api group: 'org.junit.jupiter', name: 'junit-jupiter-engine', version: '5.6.0'
+    api group: 'org.junit.jupiter', name: 'junit-jupiter-params', version: '5.6.0'
+
+    api group: 'org.hamcrest', name: 'hamcrest', version: '2.2'
+
+    api group: 'ru.yandex.qatools.matchers', name: 'matcher-decorators', version: '1.4.1'
+
+    api group: 'io.rest-assured', name: 'rest-assured', version: '4.3.1'
+
+    api group: 'io.qameta.allure', name: 'allure-java-commons', version: '2.13.1'
+    api group: 'io.qameta.allure', name: 'allure-junit5', version: '2.13.1'
+
+    compileOnly 'org.projectlombok:lombok:1.18.10'
+    annotationProcessor 'org.projectlombok:lombok:1.18.10'
+
+    implementation group: 'org.slf4j', name: 'slf4j-api', version: '1.7.30'
+    implementation group: 'org.slf4j', name: 'slf4j-log4j12', version: '1.7.30'
+
+    implementation group: 'org.aeonbits.owner', name: 'owner', version: '1.0.12'
+    implementation group: 'org.aeonbits.owner', name: 'owner-java8', version: '1.0.12'
+
+    api group: 'com.fasterxml.jackson.core', name: 'jackson-core', version: '2.10.2'
+    api group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.10.2'
+    api group: 'com.fasterxml.jackson.core', name: 'jackson-annotations', version: '2.10.2'
+}

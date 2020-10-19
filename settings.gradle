@@ -1,0 +1,3 @@
+rootProject.name = 'rest-tria-test-project'
+include 'test-framework'
+include 'autotests'

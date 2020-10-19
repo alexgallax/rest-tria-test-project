@@ -1,0 +1,9 @@
+.idea
+.gradle
+.allure
+allure-results
+.DS_Store
+target
+build
+.iml
+.ipr
